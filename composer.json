@@ -1,0 +1,30 @@
+{
+    "name": "yahrdy/sslcommerz",
+    "description": "Laravel package for sslcommerz popup checkout with Vue.js",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hridoy\\Sslcommerz\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hridoy\\SslCommerz\\SslCommerzServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Hridoy",
+            "email": "yeasirarafat321@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
