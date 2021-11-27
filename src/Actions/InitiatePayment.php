@@ -106,6 +106,10 @@ class InitiatePayment extends SslCommerz
         $form['cus_city'] = $this->city;
         $form['cus_country'] = $this->country;
         $form['shipping_method'] = $this->shippingMethod;
+        $form['value_a'] = $this->data['value_a'] ?? null;
+        $form['value_b'] = $this->data['value_b'] ?? null;
+        $form['value_c'] = $this->data['value_c'] ?? null;
+        $form['value_d'] = $this->data['value_d'] ?? null;
         return $form;
     }
 }
