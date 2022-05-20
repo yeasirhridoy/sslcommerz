@@ -1,4 +1,4 @@
-#SSL Commerz laravel integration (Popup)
+SSL Commerz laravel integration (Popup)
 
 Install the package
 `composer require yahrdy/sslcommerz`
