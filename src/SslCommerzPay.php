@@ -41,4 +41,8 @@ class SslCommerzPay implements SslCommerzContract
         $data = $request->all();
         return (new ValidatePayment($trxId, $amount, $currency, $data))->validate();
     }
+
+    public function validateValId($valId){
+        return (new ValidateValId($valId))->validate();
+    }
 }
