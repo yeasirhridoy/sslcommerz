@@ -4,6 +4,7 @@ namespace Hridoy\SslCommerz;
 
 use Hridoy\SslCommerz\Actions\InitiatePayment;
 use Hridoy\SslCommerz\Actions\ValidatePayment;
+use Hridoy\SslCommerz\Actions\ValidateValId;
 use Hridoy\SslCommerz\Contracts\SslCommerzContract;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
